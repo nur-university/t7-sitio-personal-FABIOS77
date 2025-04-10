@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyectos</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <header class="bg-dark text-white p-3">
+    <nav class="container d-flex justify-content-between">
+      <h1>Mis Proyectos</h1>
+      <div>
+        <a href="index.html" class="text-white me-3">Inicio</a>
+        <a href="proyectos.html" class="text-white me-3">Proyectos</a>
+        <a href="contacto.html" class="text-white">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container mt-4">
+    <section>
+        <h2>Proyecto 1: Juego de Ajedrez con IA utilizando Stockfish</h2>
+<img src="imagenes/proyecto1.jpg" alt="Juego de Ajedrez con IA" class="img-fluid mb-3">
+
+<p>Este proyecto consiste en el desarrollo de un <strong>juego de ajedrez</strong> en el que un jugador humano se enfrenta a una <strong>inteligencia artificial</strong> de alto nivel. Fue desarrollado en <strong>Python</strong> dentro del entorno de desarrollo <strong>Visual Studio</strong>, integrando el motor de ajedrez <strong>Stockfish</strong>, uno de los más potentes del mundo.</p>
+
+<p>El objetivo principal del proyecto fue explorar el uso de motores de juego avanzados dentro de entornos controlados, y permitir al usuario experimentar una partida desafiante contra un adversario computacional de nivel maestro. La dificultad utilizada es la más alta posible, ofreciendo una experiencia muy cercana a enfrentarse con un jugador profesional.</p>
+
+<p><strong>Características del sistema:</strong></p>
+<ul>
+  <li><strong>Elección de color y turno:</strong> el jugador puede seleccionar si desea jugar con las piezas blancas o negras, y si quiere iniciar primero o dejar que comience la IA.</li>
+  <li><strong>Interfaz de usuario:</strong> el tablero se visualiza en consola o (según versión) en una interfaz gráfica básica, mostrando el estado actual de la partida en todo momento.</li>
+  <li><strong>Integración con Stockfish:</strong> se utiliza el motor Stockfish para calcular las jugadas de la IA, evaluando posiciones y respondiendo con el mejor movimiento posible en cada turno.</li>
+  <li><strong>Sistema de validación de movimientos:</strong> el juego valida cada movimiento ingresado por el jugador, y no permite jugadas ilegales, asegurando la integridad de la partida.</li>
+  <li><strong>Conexión con bases de datos:</strong> se registra el historial de partidas y movimientos para análisis posterior, utilizando una base de datos local o en archivo, dependiendo de la configuración.</li>
+</ul>
+
+<p>El motor Stockfish fue configurado con parámetros de análisis profundo, lo que permite a la IA responder con un alto nivel de precisión estratégica, ofreciendo una experiencia enriquecedora tanto para jugadores principiantes como avanzados.</p>
+
+<p><strong>Tecnologías utilizadas:</strong></p>
+<ul>
+  <li>Lenguaje: Python</li>
+  <li>Entorno de desarrollo: Visual Studio</li>
+  <li>Motor de ajedrez: Stockfish</li>
+  <li>Base de datos: almacenamiento de partidas y movimientos</li>
+  <li>IA: cálculo de movimientos con dificultad máxima</li>
+</ul>
+
+</section>        
+
+    <section class="mt-4">
+        <h2>Proyecto 2: Aplicación Móvil "Katering"</h2>
+        <img src="imagenes/proyecto2.jpg" alt="Aplicación móvil Katering" class="img-fluid mb-3">
+        
+        <p><strong>Katering</strong> es una aplicación móvil desarrollada con <strong>Android Studio</strong> y <strong>Kotlin</strong>, orientada a facilitar la generación de documentos personalizados en formato PDF. Su objetivo principal es permitir a los usuarios ingresar información específica en formularios estructurados y, a partir de estos datos, producir un documento profesional con formato definido, listo para compartir o imprimir.</p>
+        
+        <p>Esta aplicación fue diseñada pensando en pequeños negocios de servicios como catering, organización de eventos o asesorías técnicas, donde se requiere generar presupuestos, informes o contratos con rapidez y precisión.</p>
+        
+        <p><strong>Características destacadas:</strong></p>
+        <ul>
+          <li><strong>Lectura de plantillas:</strong> la aplicación trabaja con plantillas predefinidas de documentos que contienen formato, estilo y campos editables.</li>
+          <li><strong>Relleno automático de documentos:</strong> al ingresar los datos solicitados (cliente, servicio, precios, fechas, etc.), la app los inserta automáticamente en los campos correspondientes de la plantilla.</li>
+          <li><strong>Conversión a PDF:</strong> una vez completado el formulario, el documento final es generado en formato PDF, listo para ser almacenado o compartido.</li>
+          <li><strong>Cálculos automáticos:</strong> dentro del formulario se incluyen secciones para cálculos automáticos, como totales, subtotales y porcentajes, los cuales se generan en tiempo real en una tabla visual dentro de la app.</li>
+        </ul>
+        
+        <p><strong>Integración con Google Drive:</strong></p>
+        <p>Uno de los aspectos más potentes de la aplicación es su integración con la <strong>API de Google Drive</strong>. Esto permite a los usuarios importar sus propias plantillas desde la nube, guardar automáticamente los documentos generados y mantener una copia de respaldo accesible desde cualquier dispositivo.</p>
+        
+        <p>La integración también garantiza que la generación de PDFs se haga sobre documentos con formato profesional, manteniendo estilos como tablas, negritas, alineación, logotipos y estructuras personalizadas.</p>
+        
+        <p><strong>Tecnologías utilizadas:</strong></p>
+        <ul>
+          <li>Lenguaje: Kotlin</li>
+          <li>Entorno de desarrollo: Android Studio</li>
+          <li>Generación de PDFs: Lectura y edición de plantillas</li>
+          <li>API externa: Google Drive API para carga/lectura de documentos</li>
+          <li>Interfaz: Formularios interactivos con cálculos dinámicos</li>
+        </ul>
+        
+    </section>
+
+    <section class="mt-4">
+        <h2>Proyecto 3: Aplicación Móvil "Lista de Tareas"</h2>
+        <img src="imagenes/proyecto3.jpg" alt="Aplicación Lista de Tareas" class="img-fluid mb-3">
+        
+        <p><strong>Lista de Tareas</strong> es una aplicación móvil desarrollada en <strong>Android Studio</strong> utilizando <strong>Kotlin</strong>, cuyo propósito es ofrecer una herramienta simple pero funcional para la gestión personal de tareas diarias. Esta app está diseñada para usuarios que buscan una solución práctica para organizar su tiempo y actividades cotidianas desde su dispositivo móvil.</p>
+        
+        <p>Con una interfaz clara e intuitiva, permite crear, editar y marcar tareas como completadas, permitiendo al usuario tener control total sobre su lista de pendientes. Aunque es una aplicación ligera, cuenta con detalles visuales que mejoran la experiencia del usuario.</p>
+        
+        <p><strong>Características principales:</strong></p>
+        <ul>
+          <li><strong>Creación de tareas:</strong> el usuario puede añadir nuevas tareas especificando un título y una descripción personalizada.</li>
+          <li><strong>Edición de tareas existentes:</strong> permite modificar cualquier campo de una tarea creada previamente.</li>
+          <li><strong>Marcar tareas como completadas:</strong> cada tarea tiene un checkbox que, al ser marcado, indica que ha sido realizada. Las tareas completadas se subrayan para diferenciarlas visualmente.</li>
+          <li><strong>Asignación de colores:</strong> el usuario puede seleccionar entre varios colores para personalizar el fondo de cada tarea, facilitando la organización visual según prioridades o categorías.</li>
+        </ul>
+        
+        <p>La aplicación fue desarrollada aplicando buenas prácticas en arquitectura de software móvil, utilizando componentes como <strong>RecyclerView</strong> para mostrar las listas dinámicas y <strong>ViewBinding</strong> para una gestión más segura y clara de la interfaz.</p>
+        
+        <p><strong>Tecnologías utilizadas:</strong></p>
+        <ul>
+          <li>Lenguaje: Kotlin</li>
+          <li>Entorno de desarrollo: Android Studio</li>
+          <li>Interfaz: RecyclerView, ViewBinding</li>
+          <li>Funcionalidades: Check de tareas, edición, selección de color</li>
+        </ul>
+        
+    </section>
+  </main>
+
+  <footer class="bg-light text-center p-3 mt-5">
+    <p>Repositorio: 
+      <a href="https://github.com/FABIOS77" target="_blank">GitHub</a>
+    </p>
+  </footer>
+</body>
+</html>
